@@ -66,6 +66,7 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
             modifier = modifier
                 .align(alignment = Alignment.End)
                 .padding(16.dp)
+                .align(alignment = Alignment.CenterHorizontally)
         )
     }
 }
